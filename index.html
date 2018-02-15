@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Inauguration</title>
+  <script src="https://use.typekit.net/zbv4fek.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+  
+  
+      <link rel="stylesheet" href="css/style1.css">
+
+      <link rel="icon" href="images/icon.png">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="slide-unlock.css" rel="stylesheet">
+      <link href="slide-unlock.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script src="jquery.slideunlock.js"></script>
+      <script type="text/javascript" src="index.js"></script>
+
+  
+</head>
+
+<body>
+
+  
+
+
+  <div id="wrapper">
+
+    <div class="logo">
+    <img src="images/logo.png">
+  </div>
+  <div id="slider">
+        <div id="slider_bg"></div>
+        <span id="label">>></span>
+        <!-- span id="labelTip">INAUGURATE</span -->
+        <span id="labelTip" class="ghost_text"><b></b> INAUGURATE</span>
+      <span id="labelTip" class="text_mask"><b></b> INAUGURATE</span>
+    </div>
+    <script>
+        $(function () {
+            var slider = new SliderUnlock("#slider", {}, function () {
+        window.location.href = "video.html";
+            });
+
+            slider.init();
+        })
+    </script>
+
+
+    <canvas id="canvas" width="1950px" height="800px"></canvas>
+    <canvas id="canvasbg" width="1950px" height="800px"></canvas>
+  </div>
+</body>
+
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
